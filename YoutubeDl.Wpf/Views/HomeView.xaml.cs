@@ -238,7 +238,7 @@ namespace YoutubeDl.Wpf.Views
                     viewModel => viewModel.DeleteCustomPresetCommand,
                     view => view.deletePresetButton)
                     .DisposeWith(disposables);
-
+         
                 this.BindCommand(ViewModel,
                     viewModel => viewModel.ClearLogsCommand,
                     view => view.clearLogsButton)
